@@ -21,3 +21,28 @@ The DevOps team is skilled in and responsible for all aspects of the software de
 - Flexibility
 - Robustness
 - Cost effective
+
+
+## Command Cheat Sheet
+### VM
+- (prerequisite) VirtualBox, Ruby, Vagrant
+- `ruby --version`
+- `vagrant --version`
+    - `cd ..\Vagrantfile_dir\`
+    - `vagrant global-status`
+    - `vagrant up`
+    - `vagrant ssh`
+
+    - If any errors:
+        1. `vagrant reload` # (destroy + up)
+        2. `vagrant destroy` 
+### Linux - Ubuntu distro
+- `uname`                   # user Details
+    - `[-a]`                # all details
+- `sudo apt-get`    
+    - `upgrade`             
+    - `update`              
+- `pwd`                     # current directory
+
+
+
