@@ -40,21 +40,21 @@ The DevOps team is skilled in and responsible for all aspects of the software de
 - `sudo apt-get`    
     - `upgrade`             
     - `update`           
-- directory   
+- Directory   
     - `pwd`                     print working directory
     - `ls`                      directory listing
-    - `mkdir dir_name`          make directory
-    - `cd dir_name/`            change directory
-    - `rm dir_name`             remove directory
+    - `mkdir <dir_name>`          make directory
+    - `cd <dir_name>`            change directory
+    - `rm <dir_name>`             remove directory
         - `-rf`                 remove force
 
-- file
-    - `touch file_name`         create file
-    - `nano file_name`          edit file
-    - `cat file_name`           read file
+- File
+    - `touch <file_name>`         create file
+    - `nano <file_name>`          edit file
+    - `cat <file_name>`           read file
     - `cp source destination`   copy file
     - `mv source destination`   move file
-    - `rm file_name`            remove file
+    - `rm <file_name>`            remove file
         
 - e.g. 
     - Create a folder called "test" in current location
@@ -65,19 +65,19 @@ The DevOps team is skilled in and responsible for all aspects of the software de
     `mv test/smt.txt .`  
     `ls test/`  
 
-- processes
+- Processes
     - `top`                     open manager
     - `ps aux`                  process status with more details
     - `kill pid`                kill process id  
   
-- permissions
+- Permissions
     - `ll`                      check permissions
     - `sudo su`                 switch to root user (set root user as default)
         - `exit`                DO NOT USE UNLESS REQUIRED
-    - `chmod instruction file_name`    change permission for file
+    - `chmod instruction <file_name>`    change permission for file
         - instructions   
         https://en.wikipedia.org/wiki/Chmod - Numerical permissions  
-            - `+x`              to executable
+            - `+x`              to add executable
             - `400`             to read-only
         - e.g. `chmod +x test.txt`     make test.txt executable
 
@@ -86,3 +86,7 @@ The DevOps team is skilled in and responsible for all aspects of the software de
     - `timeout 30 <command>`
     - e.g. `timeout 30 pdw &`
 
+- Installation
+    - `apt-get`                  package manager
+        - `install <package_name>` to install a package
+    - `systemctl status nginx`   check status
