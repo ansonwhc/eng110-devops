@@ -5,23 +5,22 @@ and the operations team. This highly collaborated DevOps team shares
 responsibilities, delivers the infrastructure as code, and automates the
 production pipeline throughout. And to be a successful DevOps team, they also have to follow good engineering practices of continouos integration, delivery and deployment.
 
+### DevOps four key pillars
+- Ease of use
+- Flexibility
+- Robustness
+- Cost effective
+
 ## Why DevOps?  
 The DevOps team is skilled in and responsible for all aspects of the software development life cycle. It allows for higher quality products by minimising the software implementation issues and increasing the speed and frequency of delivery. 
 
-#### DevOps Benefits
+### DevOps Benefits
 - Reliability
 - Efficiency
 - Shorter development cycle
 - More frequent updates
 - Faster delivery
 - Higher software quality
-
-#### DevOps four key pillars
-- Ease of use
-- Flexibility
-- Robustness
-- Cost effective
-
 
 ## Command Cheat Sheet
 ### VM
@@ -42,6 +41,3 @@ The DevOps team is skilled in and responsible for all aspects of the software de
     - `upgrade`             
     - `update`              
 - `pwd`                     print working directory
-
-
-
