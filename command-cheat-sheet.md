@@ -64,7 +64,7 @@ Permissions command | Function
     --- | --- | --- | --- 
     7 | 4(r) + 2(w) + 1(x) | rwx | read, write and execute
     6 |	4(r) + 2(w)	| rw- |	read and write
-    5 |	4(r)        + 1(x) | r-x | read and execute
+    5 |	4(r) + 1(x) | r-x | read and execute
     4 | 4(r) | r-- | read only
     3 | 2(w) + 1(x) | -wx |	write and execute
     2 | 2(w) | -w- | write only
@@ -82,12 +82,12 @@ Installation command | Function
 `apt-get install <package_name>` |  to install a package
 `systemctl` | Linux command-line utility used to control and manage systemd and services
 `systemctl status <package_name>` | check status
-`systemctl start <package_name>` |  run the package and spawn a process
+`systemctl start <package_name>`  | run the package and spawn a process
 `systemctl enable <package_name>` | start the package on boot
 
 - Others
-    - how to luanch and kill process (after 30secs)
-    - `$ timeout 30 <command>`
-    - e.g. 
-        - `$ timeout 30 pdw &`, where `&` means to run in the background
+    - how to luanch and kill process (after 30secs)  
+    `$ timeout 30 <command>`
+    - e.g.  
+        `$ timeout 30 pdw &`, where `&` means to run in the background
 
