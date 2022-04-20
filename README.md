@@ -83,4 +83,6 @@ The DevOps team is skilled in and responsible for all aspects of the software de
 
 - ex.
     - how to luanch and kill process (after 30secs)
+    - `timeout 30 <command>`
+    - e.g. `timeout 30 pdw &`
 
