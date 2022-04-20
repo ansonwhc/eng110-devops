@@ -34,15 +34,14 @@ The DevOps team is skilled in and responsible for all aspects of the software de
     - `vagrant ssh`
 
     - If any errors:
-        1. `vagrant reload` # (destroy + up)
+        1. `vagrant reload` (destroy + up)
         2. `vagrant destroy` 
 ### Linux - Ubuntu distro
-- `uname`                   # user Details
-    - `[-a]`                # all details
+- `uname`                   user Details
 - `sudo apt-get`    
     - `upgrade`             
     - `update`              
-- `pwd`                     # current directory
+- `pwd`                     current directory
 
 
 
