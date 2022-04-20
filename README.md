@@ -26,22 +26,22 @@ The DevOps team is skilled in and responsible for all aspects of the software de
 ## Command Cheat Sheet
 ### VM
 - (prerequisite) VirtualBox, Ruby, Vagrant
-- `ruby --version`
-- `vagrant --version`
-    - `cd ..\Vagrantfile_dir\`
-    - `vagrant global-status`
-    - `vagrant up`
-    - `vagrant ssh`
+- `ruby --version` ensure successful installation
+- `vagrant --version` ensure successful installation
+    - `cd ..\Vagrantfile_dir\` VM starting location
+    - `vagrant global-status`  check VMs status
+    - `vagrant up` start VM
+    - `vagrant ssh` get into the VM
 
     - If any errors:
         1. `vagrant reload` (destroy + up)
         2. `vagrant destroy` 
 ### Linux - Ubuntu distro
-- `uname`                   user Details
+- `uname`                   user details
 - `sudo apt-get`    
     - `upgrade`             
     - `update`              
-- `pwd`                     current directory
+- `pwd`                     print working directory
 
 
 
