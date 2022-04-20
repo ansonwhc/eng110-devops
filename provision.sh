@@ -3,8 +3,8 @@
 # communicate with os that this is going to be a bash script
 # run updates
 sudo apt-get update -y
-# un upgrades
-sudo apt-get upgrades -y
+# run upgrades
+sudo apt-get upgrade -y
 # install nginx
 sudo apt-get install nginx -y
 # start nginx
