@@ -3,8 +3,8 @@
 - *(prerequisite)* VirtualBox, Ruby, Vagrant
     - Installation guide can refer to: https://github.com/khanmaster/vb_vagrant_installtion  
 
-    `$ ruby --version`                - ensure successful installation of ruby  
-    `$ vagrant --version`             - ensure successful installation of vagrant  
+    `$ ruby --version`                - ensure successful installation of Ruby  
+    `$ vagrant --version`             - ensure successful installation of Vagrant  
     `$ cd ..\<Vagrantfile_dir>\`      - where vagrant tells VirtualBox to start the VM from  
     `$ vagrant status`                - check current directory VM status  
     `$ vagrant global-status`         - check all VMs status  
