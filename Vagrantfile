@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # "ip" specifies the assign IP
 
   # in our case, we are creating a private network with the provided up address
-  config.vm.network "private_network", ip: "192.168.10.100"
+  # config.vm.network "private_network", ip: "192.168.10.100"
 
 
   # config.vm.provision configures provisioners on the machine so that software
@@ -23,6 +23,10 @@ Vagrant.configure("2") do |config|
 
   # in our case, we are using shell as the provisioner to run the
   # external script "provision.sh" we provided in the same directory
-  config.vm.provision "shell", path: "provision.sh"
+  # config.vm.provision "shell", path: "provision.sh"
+
+  # \etc\profile ???
+  # config.vm.provision "shell", inline: "export NAME=anson"
+  config.vm.provision "shell", inline: "NAME=anson > /etc/profile"
 
 end
